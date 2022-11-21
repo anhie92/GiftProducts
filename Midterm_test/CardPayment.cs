@@ -111,7 +111,7 @@ namespace Midterm_test
             CardNumber =GetCardNumber();
             CardExp=GetCardExp();
             Cvv =GetCardCvv();
-            LastFour = $"XXXX XXXX XXXX {Convert.ToString(CardNumber).Replace(" ","").Substring(12, 4)}";
+            LastFour = $"**** **** **** {Convert.ToString(CardNumber).Replace(" ","").Substring(12, 4)}";
         }
       
     }
