@@ -7,11 +7,11 @@ namespace Midterm_test
 	{
         public string TypeOfFood { get; set; }
 
-        public Food(string name, string typeOfFood, string discription, double price)
+        public Food(string name, string typeOfFood, string description, double price)
         {
             Name = name;
             TypeOfFood = typeOfFood;
-            Description = discription;
+            Description = description;
             Price = price;
         }
     }

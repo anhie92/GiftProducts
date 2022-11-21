@@ -4,11 +4,11 @@ namespace Midterm_test
     public class Clothing : GiftProduct
     {
         public string Size { get; set; }
-        public Clothing(string name, string size, string discription, double price)
+        public Clothing(string name, string size, string description, double price)
         {
             Name = name;
             Size = size;
-            Description = discription;
+            Description = description;
             Price = price;
         }
     }
